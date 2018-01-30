@@ -51,7 +51,6 @@ protected:
 private:
   void background();
   void close();
-  void release();
 
   static void onSignal(uv_signal_t *handle, int signum);
 

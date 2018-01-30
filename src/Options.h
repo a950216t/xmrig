@@ -59,7 +59,6 @@ public:
     inline bool background() const                { return m_background; }
     inline bool colors() const                    { return m_colors; }
     inline bool doubleHash() const                { return m_doubleHash; }
-    inline bool dryRun() const                    { return m_dryRun; }
     inline bool hugePages() const                 { return m_hugePages; }
     inline bool syslog() const                    { return m_syslog; }
     inline const char *apiToken() const           { return m_apiToken; }
@@ -70,7 +69,6 @@ public:
     inline int algo() const                       { return m_algo; }
     inline int algoVariant() const                { return m_algoVariant; }
     inline int apiPort() const                    { return m_apiPort; }
-    inline int donateLevel() const                { return m_donateLevel; }
     inline int printTime() const                  { return m_printTime; }
     inline int priority() const                   { return m_priority; }
     inline int retries() const                    { return m_retries; }
@@ -111,7 +109,6 @@ private:
     bool m_background;
     bool m_colors;
     bool m_doubleHash;
-    bool m_dryRun;
     bool m_hugePages;
     bool m_ready;
     bool m_safe;
@@ -123,7 +120,6 @@ private:
     int m_algo;
     int m_algoVariant;
     int m_apiPort;
-    int m_donateLevel;
     int m_maxCpuUsage;
     int m_printTime;
     int m_priority;
