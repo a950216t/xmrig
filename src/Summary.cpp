@@ -152,7 +152,7 @@ static void print_commands()
 
 void Summary::print()
 {
-    Log::i()->text("XMRIG Without Donate Version.");
+    Log::i()->text("\x1B[01;32mXMRIG No Donate Version.");
     print_versions();
     print_memory();
     print_cpu();
